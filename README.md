@@ -21,7 +21,7 @@ Users can:
 - View and manage their cart in a dedicated cart page.
 
 ✅ **The project is deployed and accessible online via GitHub Pages**.  
-📎 You can view it here: [https://munawwarqamar.github.io/Fake-Store-API-Frontend/assignment1](https://munawwarqamar.github.io/Fake-Store-API-Frontend/assignment1)
+📎 You can view it here: [https://munawwarqamar.github.io/Fake-Store-API-Frontend]
 
 ## Technologies Used
 - HTML5
