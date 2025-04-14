@@ -1,7 +1,7 @@
 # Assignment 1 - Part 2: Fake Store API Frontend
 
 ## Group Members
-- Munawwar Qamar 1211959 <br>
+- @MunawwarQamar 1211959 <br>
 - Shahd Abumoala 1211013 <br>
 - Ayah Abdalmuti 1212074
 
