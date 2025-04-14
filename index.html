@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SAMStore</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html" class="logo">SAM Store</a>
+    <input type="text" id="searchInput" placeholder="Search for a product...">
+    
+    <!-- Add Category Filter Dropdown -->
+    <select id="categoryFilter">
+      <option value="">All Categories</option>
+      <option value="electronics">Electronics</option>
+      <option value="jewelery">Jewelery</option>
+      <option value="men's clothing">Men's clothing</option>
+      <option value="women's clothing">Women's clothing</option>
+    </select>
+    
+    <a href="cart.html" class="nav-link">🛒 Cart</a>
+  </nav>
+
+  <div id="productCards" class="product-container"></div>
+
+  <!-- Pagination controls -->
+  <div id="paginationControls" class="pagination">
+    <button id="prevPage" class="pagination-btn">Previous</button>
+    <span id="pageNumber" class="page-number">Page 1</span>
+    <button id="nextPage" class="pagination-btn">Next</button>
+  </div>
+
+  <div id="productModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" id="closeModal">&times;</span>
+      <div id="modalInfo"></div>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+  </div>
+  <div id="toast" class="toast">Added to cart 🛒</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
